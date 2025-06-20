@@ -1,5 +1,7 @@
 # spooler
 
+<img width="400" alt="Screenshot 2025-06-13 at 13 56 24" src="https://github.com/user-attachments/assets/52db9688-6b4d-4a57-bc05-dc3706609a33" />
+
 A film bulk loader for up to 30m of film.
 
 [Here's a link to Fusion 360 project in the cloud.](https://a360.co/4kNz4AA)
