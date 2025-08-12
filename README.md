@@ -27,7 +27,7 @@ If you have a lot of experience with 3D printing and bulk loading, I believe you
 
 
 ## Features and Design Decisions
-Here are the main design goals and corresponding features of the spooler. The spooler is by no means perfect or absolutely fool-proof or rather—it does not reach the level of polish I imagine from a commercial solution, operating it requires a little bit of dexterity still.
+Here are the main design goals and corresponding features of the _spooler_. The _spooler_ is by no means perfect or absolutely fool-proof or rather—it does not reach the level of polish I imagine from a commercial solution, operating it requires a little bit of dexterity still.
 However, I believe it is a step in the right direction and since I am open-sourcing it someone might be able to modify the design and make it even better. One of my key rules was to never compromise the main bulk-roll compartment in any way. There are no holes for screws or anything else that would go directly into the bulk-roll compartment. This should give you confidence that the _spooler_ will manage to keep your film in the dark, once the bulk roll is loaded.
 
 Here are the key features that make the _spooler_ stand out.
@@ -41,12 +41,12 @@ There are different film producers and they might use differently shaped and siz
 
 These two interchangeable parts use magnets to keep them in place. It's quite useful to have the cartridge holder kept in place by magnets—you don't have to deal with it moving and getting misplaced when manipulating the film cartridge in the loading-space.
 
-The interchangeable rod that holds the bulk spool has another feature. Because it spins together with the bulk roll of film, the film does not spin on the inside of the spooler and there should be no unnecessary friction. It is also designed to raise the bulk roll a little from the bottom of the _spooler_ so that the film's edges don't touch the floor. _This is hard to verify as I can not see inside the spooler with the film in it._
+The interchangeable rod that holds the bulk spool has another feature. Because it spins together with the bulk roll of film, the film does not spin on the inside of the _spooler_ and there should be no unnecessary friction. It is also designed to raise the bulk roll a little from the bottom of the _spooler_ so that the film's edges don't touch the floor. _This is hard to verify as I can not see inside the spooler with the film in it._
 
 There are files for the spool rod that fits bulk cores from Foma. I don't have access to bulk rolls from Illford or Kodak. Anyone is free and encouraged to either submit the right dimension for other spools or design it and push it into the repository.
 
 ### The Lever
-The lever used for twisting the film into the cartridge does not need to be held or pushed down for it to stay in place. This way you don't have to worry about accidentally exposing the inside of the loading space in the middle of the process. The key-shaped lever is held in place by friction inside the "door-mechanism". You can learn more about this in the section on operating the spooler. This makes using the key-shaped lever pretty comfortable.
+The lever used for twisting the film into the cartridge does not need to be held or pushed down for it to stay in place. This way you don't have to worry about accidentally exposing the inside of the loading space in the middle of the process. The key-shaped lever is held in place by friction inside the "door-mechanism". You can learn more about this in the section on operating the _spooler_. This makes using the key-shaped lever pretty comfortable.
 
 The lever is asymmetrical for two reasons. It allows to sort of "lock it" in place and be released only in one position. It also makes counting the turns a small bit easier.
 
@@ -80,12 +80,12 @@ The "floor" of the tunnel (from the ball's perspective) has to be as smooth as p
 
 
 ## How to Assemble it
-One key part of the assembly is gluing enough felt in various places. This section will walk you through it and offer explanation of why the felt is important for both light sealing and correct function. Another key aspect is how the lid is attached to the body of the spooler. To take care of that, you will need some extra material and tools. Finally, all the modular parts as well as the "empty bulk" indicator use magnets. I, personally, use neodymium magnets.
+One key part of the assembly is gluing enough felt in various places. This section will walk you through it and offer explanation of why the felt is important for both light sealing and correct function. Another key aspect is how the lid is attached to the body of the _spooler_. To take care of that, you will need some extra material and tools. Finally, all the modular parts as well as the "empty bulk" indicator use magnets. I, personally, use neodymium magnets.
 
 ### What You Need Aside from the 3D Printed Parts
 The lid and the body are held together using 7 M3 heat inserts and screws. You will need to buy those.
 It seems possible to instead tape the lid and the body together with a black electrical tape. For that, you will need to print the alternative lid with no holes. It should not be necessary, but it's better to be safe than sorry.
-If you decide to use the heat inserts, you will need something to heat them with and push them into the body of the spooler.
+If you decide to use the heat inserts, you will need something to heat them with and push them into the body of the _spooler_.
 
 So here's a list of things you will need:
 - [ ] **7 pieces** of M3 heat insertable threads (I use the short version)
@@ -130,19 +130,19 @@ You should make sure to not over-push the magnets too deep in the hole. (The hol
 
 
 ## How to Operate it
-This section will show you how to operate the spooler.
+This section will show you how to operate the _spooler_.
 
 ### Loading the Spooler
-Loading the spooler with the film is mostly obvious.
+Loading the _spooler_ with the film is mostly obvious.
 
 1. You have to bring it into a completely dark room or use a changing bag.
 2. Pull the film through the narrow light-trap corridor first and then put the spool onto the rod and secure it inside the circle-shaped hole so that it can spin freely.
 3. You might want to tighten the film a little bit just so that there's no unnecessary slack.
-4. Then you can put the lid onto the body of the spooler and secure it using the screws. You might want to take turns tightening all of them "at the same time" so that there's no unnecessary tension and it all fits together nicely. You want to make sure that the lid is touching the body of the spooler everywhere and there are no gaps. Then you can expose it to the light.
+4. Then you can put the lid onto the body of the _spooler_ and secure it using the screws. You might want to take turns tightening all of them "at the same time" so that there's no unnecessary tension and it all fits together nicely. You want to make sure that the lid is touching the body of the _spooler_ everywhere and there are no gaps. Then you can expose it to the light.
 
 
 ### Using the Spooler
-You should have enough space to work within the loading-space of the spooler. The part of the process before you actually start twisting the lever should be straightforward. Then, depending on your preference, you might want to use one of two possible ways to close the door and install the lever into the film canister's core.
+You should have enough space to work within the loading-space of the _spooler_. The part of the process before you actually start twisting the lever should be straightforward. Then, depending on your preference, you might want to use one of two possible ways to close the door and install the lever into the film canister's core.
 
 5 A. When the canister is in place and the roll of film is connected to it, you need to slide the door in place so that the slots in the turn-key are aligned with the cartridge's core. The door needs to slide all the way down and the bottom of it needs to be aligned with the bottom of the _spooler_. You might need to turn the turn-key gently as you are pressing on it to align it correctly. You should be able to recognise that everything is in place, it all fits together nicely, no slack, no gaps, no misalignment.
 
