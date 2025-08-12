@@ -11,6 +11,9 @@ A film bulk loader for up to 30 meters of film.
 
 > This work is licensed under the **[Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)** license. This means that you are free to download and print it for your non-commercial use-cases. Any improvements and modifications have to credit the original work and have to be made available under the same license. This is to ensure that everyone can benefit from other people making the design better in the future. It does not allow commercial use.
 
+## Give me Feedback!
+If you print it and use it, [let me know](https://github.com/jalivert/spooler/issues/1), I will appreciate it a lot!
+
 ------
 
 
