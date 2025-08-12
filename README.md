@@ -45,6 +45,8 @@ There are files for the spool rod that fits bulk cores from Foma. I don't have a
 ### The Lever
 The lever used for twisting the film into the cartridge does not need to be held or pushed down for it to stay in place. This way you don't have to worry about accidentally exposing the inside of the loading space in the middle of the process. The key-shaped lever is held in place by friction inside the "door-mechanism". You can learn more about this in the section on operating the spooler. This makes using the key-shaped lever pretty comfortable.
 
+The lever is asymmetrical for two reasons. It allows to sort of "lock it" in place and be released only in one position. It also makes counting the turns a small bit easier.
+
 
 ### Film Indicator
 When you get to the end of the bulk roll it is very easy to wind the end of the film all the way into the film cartridge without noticing. To prevent this, the _spooler_ has a special feature in the center of the lid. There is a circular cavity made for a small magnetic ball bearing to go around. The rod that goes into the bulk roll (or rather the bulk roll goes onto it) has a cavity to fit a strong cylindrical magnet. The position of the magnet makes it so that when the rod spins, it moves the ball bearing. When you can see the ball moving (or hear it), you know there's still film attached to the core of the bulk roll. Once the ball stops going around, you know the bulk roll is done.
