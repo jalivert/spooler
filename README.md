@@ -45,7 +45,7 @@ The lever used for twisting the film into the cartridge does not need to be held
 
 
 ### Film Indicator
-When you get to the end of the bulk roll it is very easy to wind the end of the film all the way into the film cartridge without noticing. To prevent this, the _spooler_ has a special feature in the middle of the lid. There is a circular cavity made for a small magnetic ball bearing to go around. The rod that goes into the bulk roll (or rather the bulk roll goes into it) has a cavity to fit a strong cylindrical magnet. The position of the magnet makes it so that when the rod spins, it moves the ball bearing. When you can see the ball moving (or hear it), you know there's still film attached to the core of the bulk roll. Once the ball stops going around you know the bulk roll is done.
+When you get to the end of the bulk roll it is very easy to wind the end of the film all the way into the film cartridge without noticing. To prevent this, the _spooler_ has a special feature in the center of the lid. There is a circular cavity made for a small magnetic ball bearing to go around. The rod that goes into the bulk roll (or rather the bulk roll goes into it) has a cavity to fit a strong cylindrical magnet. The position of the magnet makes it so that when the rod spins, it moves the ball bearing. When you can see the ball moving (or hear it), you know there's still film attached to the core of the bulk roll. Once the ball stops going around, you know the bulk roll is done.
 This solution allows you to know when you run out and carefully gauge how many turns you want to make before opening the door compartment to "catch the end of the roll". This specific design works without compromising the bulk-roll compartment.
 
 
@@ -57,6 +57,8 @@ I have published print profiles for users of Bambu printers. You can find them h
 Users of other printers can download the `step` files and print the parts either using my settings (TODO: add a link to a file with settings and explanations of those) or their own settings should they decide to make adjustments.
 
 I recommend printing it with a black filament for maximizing the light-sealing property of the tool.
+
+I print each light-critical part with at least 5 layers for walls. This means that there are usually at least 10 layers between the outside and the inside of the light-sealed compartments. In my experience, this is enough to prevent light from seeping through.
 
 > If you need help with printing, you can [open an issue](https://github.com/jalivert/spooler/issues/new/choose) and I will try to help.
 
