@@ -6,28 +6,46 @@ A film bulk loader for up to 30m of film.
 
 [Here's a link to Fusion 360 project in the cloud.](https://a360.co/4kNz4AA)
 
+[Here's a link to Makerworld page](TODO: ADD A LINK)
+
 > This work is licensed under the **** (TODO: pick one) license. This means that you are free to download and print it for your non-commercial use-cases. Any improvements and modifications have to credit the original work and have to be made available under the same license. This is to ensure that everyone can benefit from other people making the design better in the future. It does not allow commercial use.
 
 ------
 
 
+**Who is this document for and how to read it?**
+
+This document is supposed to offer enough detail for people who want the "marketing pitch" as well as thinkerers and makers.
+It contains sections that explain the function of the _spooler_ but it also explains why it was designed that way.
+Additionally, sometimes it contains special notes for people that might want to tweak certain parts or aspects to optimize the design for their specific printers and the materials they use. This might be relevant if you are printing with a filament with a very different properties (like expansion) than me (I am using PETG made by [Plasty Mladeč](https://www.filament-pm.cz)) as there are certain parts that require at least a modest amount of care to fit properly. I do believe it shouldn't be an issue as I have built in quite enough tolerance into the design already, but I will point out the pieces and their bits where you might want to pay at least a little bit of attention.
+
+
+
+
 ## Features and Design Decisions
 Here are the main design goals and corresponding features of the spooler. The spooler is by no means perfect or absolutely fool-proof or rather—it does not reach the level of polish I imagine from a commercial solution, operating it requires a little bit of dexterity still.
-However, I believe it is a step in the right direction and since I am open-sourcing it someone might be able to modify the design and make it even better.
-Here are some key features.
+However, I believe it is a step in the right direction and since I am open-sourcing it someone might be able to modify the design and make it even better. One of my key rules was to never compromise the main bulk-roll compartment in any way. There are no holes for screws or anything else that would go directly into the bulk-roll compartment. This should give you confidence that the _spooler_ will manage to keep your film in the dark, once the bulk roll is loaded.
 
-### Ease of Use
-My goal was to make a bulk film loader that would allow an easy manipulation with the film cartridge. I wanted to have the space where the film canister goes to be as open and accessible as possible. The spooler achieves this by the film canister space being open from the front and top and mostly open from the sides. More details about how to operate the "door-mechanism" in the section on how to operate the spooler.
+Here are the key features that make the _spooler_ stand out.
+
+### Ease of Use (especially when manipulating the film cartridge)
+My goal was to make a bulk film loader that would allow an easy manipulation with the film cartridge. I wanted to have the space where the film canister goes as open and accessible as possible. The _spooler_ achieves this by the film canister space being open from the front and top and mostly open from the sides. More details about how to operate the "door-mechanism" in the section on how to operate the spooler.
 
 ### Modularity
-There are different film producers and they might use differently shaped and sized spools. The film canisters are also little bit different. The canister cores from different manufacturers (the little bit that you twist and roll the film around) have a bit different diameters. This is why the spooler has those two bits interchangeable.
+There are different film producers and they might use differently shaped and sized spools. The film canisters are also little bit different. The canister cores from different manufacturers (the little bit that you twist and roll the film around, or rather your camera does that) have small variations in diameters. This is why the _spooler_ has those two bits interchangeable.
 
-The interchangeable rod that holds the bulk spool has another feature. Because it spins together with the bulk roll of film, the film does not spin on the inside of the spooler and there should be no unnecessary friction. _This is hard to verify as I can not see inside the spooler._
+The interchangeable rod that holds the bulk spool has another feature. Because it spins together with the bulk roll of film, the film does not spin on the inside of the spooler and there should be no unnecessary friction. It is also designed to raise the bulk roll a little from the bottom of the _spooler_ so that the film's edges don't touch the floor. _This is hard to verify as I can not see inside the spooler._
 
 There are files for the spool rod that fits bulk cores from Foma. I don't have access to bulk rolls from Illford or Kodak. Anyone is free and encouraged to either submit the right dimension for other spools or design it and push it into the repository.
 
 ### The Lever
-The lever used for twisting the film into the cartridge does not need to be held or pushed down for it to stay in place. This way you don't have to worry about accidentally exposing the inside of the loading space in the middle of the process. The key-shaped lever is held in place by friction inside the "door-mechanism". You can learn more about this in the section on operating the spooler.
+The lever used for twisting the film into the cartridge does not need to be held or pushed down for it to stay in place. This way you don't have to worry about accidentally exposing the inside of the loading space in the middle of the process. The key-shaped lever is held in place by friction inside the "door-mechanism". You can learn more about this in the section on operating the spooler. This makes using the key-shaped lever pretty comfortable.
+
+
+### Film Indicator
+When you get to the end of the bulk roll it is very easy to wind the end of the film all the way into the film cartridge without noticing. To prevent this, the _spooler_ has a special feature in the middle of the lid. There is a circular cavity made for a small magnetic ball bearing to go around. The rod that goes into the bulk roll (or rather the bulk roll goes into it) has a cavity to fit a strong cylindrical magnet. The position of the magnet makes it so that when the rod spins, it moves the ball bearing. When you can see the ball moving (or hear it), you know there's still film attached to the core of the bulk roll. Once the ball stops going around you know the bulk roll is done.
+This solution allows you to know when you run out and carefully gauge how many turns you want to make before opening the door compartment to "catch the end of the roll". This specific design works without compromising the bulk-roll compartment.
+
 
 
 ## How to Print it
@@ -35,7 +53,11 @@ I have published print profiles for users of Bambu printers. You can find them h
 
 Users of other printers can download the `step` files and print the parts either using my settings (TODO: add a link to a file with settings and explanations of those) or their own settings should they decide to make adjustments.
 
+I recommend printing it with a black filament for maximizing the light-sealing property of the tool.
+
 > If you need help with printing, you can [open an issue](https://github.com/jalivert/spooler/issues/new/choose) and I will try to help.
+
+
 
 
 ## How to Assemble it
