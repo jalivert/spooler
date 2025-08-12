@@ -7,7 +7,7 @@ A film bulk loader for up to 30 meters of film.
 
 <img width="50em" alt="fusion 360 icon" src="images/icons/f360.png" />[Here's a link to Fusion 360 design in the cloud.](https://a360.co/4kNz4AA)
 
-<img width="50em" alt="fusion 360 icon" src="images/icons/makerworld.png" />[Here's a link to Makerworld page](localhost:8080)
+<img width="50em" alt="fusion 360 icon" src="images/icons/makerworld.png" />[Here's a link to Makerworld page](https://makerworld.com/en/models/1694774-the-spooler-film-bulk-loader#profileId-1796912)
 
 > This work is licensed under the **** (TODO: pick one) license. This means that you are free to download and print it for your non-commercial use-cases. Any improvements and modifications have to credit the original work and have to be made available under the same license. This is to ensure that everyone can benefit from other people making the design better in the future. It does not allow commercial use.
 
@@ -54,9 +54,9 @@ This solution allows you to know when you run out and carefully gauge how many t
 
 
 ## How to Print it
-I have published print profiles for users of Bambu printers. You can find them here (TODO: add the link).
+I have published print profiles for users of Bambu printers. You can find them [here](https://makerworld.com/en/models/1694774-the-spooler-film-bulk-loader#profileId-1796912).
 
-Users of other printers can download the `step` files and print the parts either using my settings (TODO: add a link to a file with settings and explanations of those) or their own settings should they decide to make adjustments.
+Users of other printers have multiple options. They can either download the "raw" `step` files and print the parts either using my settings (TODO: add a link to a file with settings and explanations of those) or their own settings should they decide to make adjustments. You might also be able to use the generated gcodes. (TODO: Export gcodes from bambu studio and upload them here.) You should pick the option you have the most experience with or the one in which you have the most confidence.
 
 I recommend printing it with a black filament for maximizing the light-sealing property of the tool.
 
@@ -65,11 +65,11 @@ I print each light-critical part with at least 5 layers for walls. This means th
 > If you need help with printing, you can [open an issue](https://github.com/jalivert/spooler/issues/new/choose) and I will try to help.
 
 ### Printing the Lid with a Ball Magnet In-place
-The only somewhat tricky part is the lid of the _spooler_. The lid has a small "tunnel" cavity in the center for the ball-shaped magnet. It is designed so that the ball can not exit the cavity (so that you can't lose it). Because of that, it has to be inserted during the printing process. In short, you have to insert it before the 22nd layer of the lid is printed as that layer goes over the tunnel. For obvious safety reasons, the "official instructions" are: pause the print shortly to make sure that your hands do not interfere with the printer head. The plate is magnetic so that will make it easier for the ball to stay where it should.
+The only somewhat tricky part is the lid of the _spooler_. The lid has a small "tunnel" cavity in the center for the ball-shaped magnet. It is designed so that the ball can not exit the cavity (so that you can't lose it). Because of that, it has to be inserted during the printing process. In short, you have to insert it before the 22nd layer of the lid is printed as that layer goes over the tunnel. ([Here's an image of the 21st layer.](images/img5.png)) For obvious safety reasons, the "official instructions" are: pause the print shortly to make sure that your hands do not interfere with the printer head. The plate is magnetic so that will make it easier for the ball to stay where it should.
 
 > PRO TIP: I recommend having a larger magnet nearby in case you drop the ball in the wrong place so that you can quickly retrieve it.
 
-The "floor" of the tunnel (from the ball's perspective) has to be as smooth as possible. For that reason, I have added a modifier and also changed the settings for the seam (so that it's not aligned as that would case a narrowing in the tunnel at one spot and prevent the ball from moving freely). If there are any issues and the ball is not spinning freely once the lid is done printing, you might need to investigate what is going on.
+The "floor" of the tunnel (from the ball's perspective) has to be as smooth as possible. For that reason, I have added a modifier and also changed the settings for the seam (so that it's not aligned as that would cause a narrowing in the tunnel at one spot and prevent the ball from moving freely). If there are any issues and the ball is not spinning freely once the lid is done printing, you might need to investigate what is going on.
 
 
 
@@ -83,8 +83,8 @@ It seems possible to instead tape the lid and the body together with a black ele
 If you decide to use the heat inserts, you will need something to heat them with and push them into the body of the spooler.
 
 So here's a list of things you will need:
-- [X] **7 pieces** of M3 heat inserts (I use the short version)
-- [X] **7 pieces** of M3x10 screws
+- [ ] **7 pieces** of M3 heat insertable threads (I use the short version)
+- [ ] **7 pieces** of M3x10 screws
 - [ ] 4 mm ball-shaped magnet
 - [ ] **2 pieces** of 3 mm x 3 mm cylidrical magnet (diameter x height)
 - [ ] 8 mm x 10 mm cylidrical magnet (diameter x height)
