@@ -12,16 +12,16 @@ A film bulk loader for up to 30 meters of film.
 > This work is licensed under the **[Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)** license. This means that you are free to download and print it for your non-commercial use-cases. Any improvements and modifications have to credit the original work and have to be made available under the same license. This is to ensure that everyone can benefit from other people making the design better in the future. It does not allow commercial use.
 
 ## Give me Feedback!
-If you print it and use it, [let me know](https://github.com/jalivert/spooler/issues/1), I will appreciate it a lot!
+If you print it and use it, [let me know](https://github.com/jalivert/spooler/issues/1).
 
 ------
 
 
 **Who is this document for and how to read it?**
+This document is for people who want to build it and use it correctly.
+It should give enough detail to people who at least somewhat know what they are doing, if you are reading it and something isn't as clear as it should be, let me know in the issues!
 
-This document is supposed to offer enough detail for people who want the "marketing pitch" as well as thinkerers and makers.
-It contains sections that explain the function of the _spooler_ but it also explains why it was designed that way.
-Additionally, sometimes it contains special notes for people that might want to tweak certain parts or aspects to optimize the design for their specific printers and the materials they use. This might be relevant if you are printing with a filament with a very different properties (like expansion) than me (I am using PETG made by [Plasty Mladeč](https://www.filament-pm.cz)) as there are certain parts that require at least a modest amount of care to fit properly. I do believe it shouldn't be an issue as I have built in quite enough tolerance into the design already, but I will make sure to mention the pieces and their bits where you might want to pay at least a little bit of attention in the relevant sections.
+Sometimes there are special notes for people that might want to tweak certain parts or aspects to optimize the design for their specific printers and the materials they use. This might be relevant if you are printing with a filament with a very different properties (like expansion) than me (I am using PETG made by [Plasty Mladeč](https://www.filament-pm.cz)) as there are certain parts that require at least a modest amount of care to fit properly. I do believe it shouldn't be an issue as I have built in quite enough tolerance into the design already, but I will make sure to mention the pieces and their bits where you might want to pay at least a little bit of attention in the relevant sections.
 
 If you have a lot of experience with 3D printing and bulk loading, I believe you should be able to just quickly scan the document and extract the bits relevant to you before you start printing.
 
