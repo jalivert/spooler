@@ -5,7 +5,7 @@
 
 A film bulk loader for up to 30 meters of film.
 
-<img width="50em" alt="fusion 360 icon" src="images/icons/f360.png" />[Here's a link to Fusion 360 design in the cloud.](https://a360.co/4kNz4AA)
+<img width="50em" alt="fusion 360 icon" src="images/icons/f360.png" />[Here's a link to Fusion 360 design in the cloud.](https://a360.co/3QAbFbU)
 
 <img width="50em" alt="fusion 360 icon" src="images/icons/makerworld.png" />[Here's a link to Makerworld page](https://makerworld.com/en/models/1694774-the-spooler-film-bulk-loader#profileId-1796912)
 
@@ -66,7 +66,7 @@ The _spooler_ is designed in such a way that the magnets can be omited. You can 
 ## How to Print it
 I have published print profiles for users of Bambu printers. You can find them [here](https://makerworld.com/en/models/1694774-the-spooler-film-bulk-loader#profileId-1796912).
 
-Users of other printers have multiple options. They can either download the "raw" `step` files and print the parts either using my settings (TODO: add a link to a file with settings and explanations of those) or their own settings should they decide to make adjustments. You might also be able to use the generated gcodes. (TODO: Export gcodes from bambu studio and upload them here.) You should pick the option you have the most experience with or the one in which you have the most confidence.
+Users of other printers have multiple options. They can either [download the "raw" `step` files](./components/) and print the parts either using my settings or their own settings should they decide to make adjustments.
 
 I recommend printing it with a black filament for maximizing the light-sealing property of the tool.
 
