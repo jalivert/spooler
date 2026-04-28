@@ -17,20 +17,21 @@ If you print it and use it, [let me know](https://github.com/jalivert/spooler/is
 ------
 
 
-**Who is this document for and how to read it?**
+<!-- **Who is this document for and how to read it?**
 This document is for people who want to build it and use it correctly.
 It should give enough detail to people who at least somewhat know what they are doing, if you are reading it and something isn't as clear as it should be, let me know in the issues!
 
 Sometimes there are special notes for people that might want to tweak certain parts or aspects to optimize the design for their specific printers and the materials they use. This might be relevant if you are printing with a filament with a very different properties (like expansion) than me (I am using PETG made by [Plasty Mladeč](https://www.filament-pm.cz)) as there are certain parts that require at least a modest amount of care to fit properly. I do believe it shouldn't be an issue as I have built in quite enough tolerance into the design already, but I will make sure to mention the pieces and their bits where you might want to pay at least a little bit of attention in the relevant sections.
 
-If you have a lot of experience with 3D printing and bulk loading, I believe you should be able to just quickly scan the document and extract the bits relevant to you before you start printing.
+If you have a lot of experience with 3D printing and bulk loading, I believe you should be able to just quickly scan the document and extract the bits relevant to you before you start printing. -->
 
 
 ## Features and Design Decisions
-Here are the main design goals and corresponding features of the _spooler_. The _spooler_ is by no means perfect or absolutely fool-proof or rather—it does not reach the level of polish I imagine from a commercial solution, operating it requires a little bit of dexterity still.
+I designed the _spooler_ to be somewhat easily printable and have a few features that make using it nice.
+<!-- Here are the main design goals and corresponding features of the _spooler_. The _spooler_ is by no means perfect or absolutely fool-proof or rather—it does not reach the level of polish I imagine from a commercial solution, operating it requires a little bit of dexterity still.
 However, I believe it is a step in the right direction and since I am open-sourcing it someone might be able to modify the design and make it even better. One of my key rules was to never compromise the main bulk-roll compartment in any way. There are no holes for screws or anything else that would go directly into the bulk-roll compartment. This should give you confidence that the _spooler_ will manage to keep your film in the dark, once the bulk roll is loaded.
 
-Here are the key features that make the _spooler_ stand out.
+Here are the key features that make the _spooler_ stand out. -->
 
 ### Easy Manipulation with the Film Cartridge
 My goal was to make a bulk film loader that would allow an easy manipulation with the film cartridge. I wanted to have the space where the film canister goes as open and accessible as possible. The _spooler_ achieves this by the film canister space being open from the front and top and mostly open from the sides ([see an image](images/img4.png)). More details about how to operate the "door-mechanism" in the section on [how to operate the spooler](#how-to-operate-it).
@@ -47,6 +48,8 @@ There are files for the spool rod that fits bulk cores from Foma. I don't have a
 
 ### The Lever
 The lever used for twisting the film into the cartridge does not need to be held or pushed down for it to stay in place. This way you don't have to worry about accidentally exposing the inside of the loading space in the middle of the process. The key-shaped lever is held in place by friction inside the "door-mechanism". You can learn more about this in the section on operating the _spooler_. This makes using the key-shaped lever pretty comfortable.
+
+The top of the lever has a hole for a hexagonal key for easier turning if you want it.
 
 The lever is asymmetrical for two reasons. It allows to sort of "lock it" in place and be released only in one position. It also makes counting the turns a small bit easier.
 
@@ -117,8 +120,8 @@ You need to apply the felt into the narrow passage in the body of the _spooler_.
 #### Felt on the Inside of the Door
 The whole inside of the door needs to be covered in felt as well. I like to cut the height a little bit longer so that I can wrap the felt over the bottom edge of the door and glue it there too. It makes it a really nice to use (no edges). Again, I only apply the glue locally in small bits all around the edges of the felt. This felt serves two purposes. It fills in the gap between the sliding door and the body of the _spooler_. It also creates enough friction for the lever-part to fit snugly and stay in place. They disc of the lever is designed with the felt in mind, so you have to put it all the way up otherwise there's going to be a gap and it won't have enough friction to stay in place. Also, it just looks nice with the entire inside of the door padded with black felt.
 
-#### Felt on the Top of the Lid
-There's one more place where a little bit of felt needs to be applied. The placement of this felt ensures that there is no light comming into the loading compartment from the top. You can start by cutting a rectangular felt large enough to go from left to right and then cut it strategically so that you can fold it over the edge and glue it there too. Once again, the disc of the lever is designed with this felt in mind, without it, there might be a small gap that might let in light.
+<!-- #### Felt on the Top of the Lid
+There's one more place where a little bit of felt needs to be applied. The placement of this felt ensures that there is no light comming into the loading compartment from the top. You can start by cutting a rectangular felt large enough to go from left to right and then cut it strategically so that you can fold it over the edge and glue it there too. Once again, the disc of the lever is designed with this felt in mind, without it, there might be a small gap that might let in light. -->
 
 
 ### Gluing in the Magnets
