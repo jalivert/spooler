@@ -7,8 +7,7 @@ A film bulk loader for up to 30 meters of film.
 
 [<a href="https://a360.co/3QAbFbU"><img width="50" align="absmiddle" alt="fusion 360 icon" src="images/icons/f360.png" />View the Model in Your Browser</a>](https://a360.co/4iTVp17)
 
-
-<img width="50em" alt="fusion 360 icon" src="images/icons/makerworld.png" />[Here's a link to Makerworld page](https://makerworld.com/en/models/1694774-the-spooler-film-bulk-loader#profileId-1796912)
+[<a href="https://a360.co/3QAbFbU"><img width="50" align="absmiddle" alt="makerworld icon" src="images/icons/makerworld.png" />Print it on Makerworld</a>](https://makerworld.com/en/models/1694774-the-spooler-film-bulk-loader#profileId-1796912)
 
 > This work is licensed under the **[Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)** license. This means that you are free to download and print it for your non-commercial use-cases. Any improvements and modifications have to credit the original work and have to be made available under the same license. This is to ensure that everyone can benefit from other people making the design better in the future. It does not allow commercial use.
 
