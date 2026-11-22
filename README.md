@@ -5,7 +5,8 @@
 
 A film bulk loader for up to 30 meters of film.
 
-<img width="50em" alt="fusion 360 icon" src="images/icons/f360.png" />[Here's a link to Fusion 360 design in the cloud.](https://a360.co/3QAbFbU)
+[<a href="https://a360.co/3QAbFbU"><img width="50" align="absmiddle" alt="fusion 360 icon" src="images/icons/f360.png" />View the Model in Your Browser</a>](https://a360.co/4iTVp17)
+
 
 <img width="50em" alt="fusion 360 icon" src="images/icons/makerworld.png" />[Here's a link to Makerworld page](https://makerworld.com/en/models/1694774-the-spooler-film-bulk-loader#profileId-1796912)
 
