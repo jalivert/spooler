@@ -1,7 +1,7 @@
 # spooler
 
 
-<img width="50%" alt="image of the spooler in Fusion 360" src="images/img1.png" />
+<img alt="image of the spooler in Fusion 360" src="images/img1.png" />
 
 A film bulk loader for up to 30 meters of film.
 
